@@ -5,6 +5,7 @@ def unsafe?(speed)
 		return true
 	elsif
 		false;
+	end #if statement
 end #method
 
 def not_safe?(speed)
