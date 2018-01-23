@@ -1,8 +1,10 @@
 require "pry"
 
 def unsafe?(speed)
-	speed < 40 ? true : false;
-	speed > 60 ? true : false;
+	if speed < 40 || speed > 60
+		return true
+	elsif
+		false;
 end #method
 
 def not_safe?(speed)
